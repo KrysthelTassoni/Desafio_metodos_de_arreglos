@@ -1,0 +1,16 @@
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+.delete-btn {
+    color: red;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    color: darkred;
+}
+
+.button {
+    background-color: rgb(9, 143, 81);
+    color: white;
+}

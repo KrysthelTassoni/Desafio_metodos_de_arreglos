@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <div id="todoApp">
+        <h2>Todo List</h2>
+        <input type="text" id="newTask" placeholder="Nueva tarea">
+        <button class="button" onclick="addTask()">Agregar</button>
+        <p>Total: <span id="totalTasks">0</span></p>
+        <p>Realizadas: <span id="completedTasks">0</span></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tarea</th>
+                    
+                </tr>
+            </thead>
+            <tbody id="taskList">
+                <!-- Aquí se agregarán las tareas dinámicamente -->
+            </tbody>
+        </table>
+    </div>
+        <script src="./assets/javascript/script.js"></script>
+    </body>
+    </html>
+    
